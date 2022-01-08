@@ -1,0 +1,68 @@
+/*CSS FILE*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.bgimg {
+  background-image: url('https://wallup.net/wp-content/uploads/2017/11/17/280492-launching-Launch-night-dark-Rocket-rockets.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px 0px 0px 30px;
+  width: 95%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomleft {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center; 
+  text-align: center;
+  width: 100%;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+}
+
+#demo {
+  font-size: 40px;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.iconify {
+  margin: 0 20px 50px 20px;
+  color: #ffffff
+}
+
+@media only screen and (max-width: 1000px) {
+  #email {
+    display: none;
+  }
+}
