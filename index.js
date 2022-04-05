@@ -1,6 +1,6 @@
 // HELLO WORLD :)
 
-var countDownDate = new Date("Mar 10, 2022 12:00:00").getTime();
+var countDownDate = new Date("Apr 25, 2022 12:00:00").getTime();
 
 var countdownfunction = setInterval(function() {
 
